@@ -1,7 +1,7 @@
 
 Application Type
 
-This is a simple Spring boot Appplicationn which runs on port 8080. It has no JPA layer or UI. It exposes single rest enpoint which takes map of strings, and retuns number of steps it takes to go from point A to B according to given problem.
+This is a simple Spring boot Appplicationn which runs on port 8080. It has no JPA layer or UI. It exposes single rest end point which takes map of strings, and returns number of steps it takes to go from point A to B according to the given problem.
 
 
 How to Run
