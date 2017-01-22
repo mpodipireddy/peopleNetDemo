@@ -60,7 +60,7 @@ public class manageRoute {
             return  new ResponseEntity<Integer>(HttpStatus.BAD_REQUEST);
         }
 
-        return ResponseEntity.created(new URI("/api/groups/" + pRouteArray.length))
+        return ResponseEntity.created(new URI("/manageMaps/steps" + pRouteArray.length))
                 .body(stepCount);
 
     }
